@@ -1,0 +1,325 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+section.bolum1 {
+  width: 100%;
+  height: 100vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+section.bolum1 nav {
+  width: 80%;
+  height: 70px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+section.bolum1 nav ul {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.bolum1 nav ul li {
+  display: inline-block;
+}
+
+section.bolum1 nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+section.bolum1 nav .respo {
+  display: none;
+}
+
+section.bolum1 .center {
+  width: 100%;
+  height: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+section.bolum1 .center .text {
+  width: 50%;
+}
+
+section.bolum1 .center .text * {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+section.bolum1 .center .text button {
+  background-color: orangered;
+  border: 1px solid orangered;
+  padding: 1.5em 3em;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+  section.bolum1 nav ul {
+    display: none;
+  }
+  section.bolum1 nav .respo {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+section.bolum2 {
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  text-align: center;
+  background-color: orangered;
+}
+
+section.bolum2 .center {
+  width: 80%;
+  margin: auto;
+  color: #fff;
+}
+
+section.bolum2 .center * {
+  margin-bottom: 15px;
+}
+
+section.bolum2 .center button {
+  background-color: #fff;
+  border: 1px solid #fff;
+  padding: 1.5em 3em;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+section.service {
+  width: 100%;
+  height: auto;
+  padding: 60px 0 80px 0;
+  text-align: center;
+}
+
+section.service .container {
+  width: 90%;
+  margin: 80px auto 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.service .container .box {
+  width: 23%;
+  margin-bottom: 25px;
+}
+
+section.service .container .box * {
+  margin-bottom: 10px;
+}
+
+section.service .container .box i {
+  color: orangered;
+}
+
+@media only screen and (max-width: 992px) {
+  section.service .container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  section.service .container .box {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  section.service .container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  section.service .container .box {
+    width: 100%;
+  }
+}
+
+section.portfolio {
+  width: 100%;
+  height: auto;
+}
+
+section.portfolio .container {
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.portfolio .container .box {
+  width: 33.33%;
+  position: relative;
+  cursor: pointer;
+}
+
+section.portfolio .container .box:hover > .yazi {
+  opacity: 1;
+}
+
+section.portfolio .container .box img {
+  width: 100%;
+  height: 100%;
+}
+
+section.portfolio .container .box .yazi {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 69, 0, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  opacity: 0;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+section.portfolio .free {
+  text-align: center;
+  padding: 100px 0;
+  background-color: #2c3e50;
+}
+
+section.portfolio .free .ft * {
+  margin-bottom: 15px;
+}
+
+section.portfolio .free .ft h3 {
+  color: #fff;
+  font-size: 2em;
+}
+
+section.portfolio .free .ft button {
+  background-color: #fff;
+  border: 1px solid #fff;
+  padding: 1.5em 4em;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 992px) {
+  section.portfolio .container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  section.portfolio .container .box {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  section.portfolio .container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  section.portfolio .container .box {
+    width: 100%;
+  }
+}
+
+section.contact {
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  text-align: center;
+}
+
+section.contact .container {
+  width: 50%;
+  margin: 50px auto;
+}
+
+section.contact .container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section.contact .container form * {
+  margin-bottom: 30px;
+}
+
+section.contact .container form input {
+  padding: 15px;
+}
+
+section.contact .container form textarea {
+  resize: vertical;
+  padding: 15px;
+}
+
+section.contact .container form button {
+  background-color: crimson;
+  color: #fff;
+  border: none;
+  padding: 15px 0;
+  border-radius: 15px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

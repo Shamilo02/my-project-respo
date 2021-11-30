@@ -1,0 +1,74 @@
+section.bolum1{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg');
+    background-size: cover;
+    background-position: center center;
+     nav {
+         width: 80%;
+         height: 70px;
+         margin: auto;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         color: #fff;
+         
+         ul{
+             width: 40%;
+             display: flex;
+             justify-content: space-between;
+             li{
+                 display: inline-block;
+                 a{
+                     text-decoration:none;
+                     color: #fff;
+                 }
+             }
+         }
+
+         .respo{
+             display: none;
+         }
+     }
+
+     .center{
+         width: 100%;
+        height: 85%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+     .text{
+         width: 50%;
+         *{
+             margin-bottom: 10px;
+             color: #fff;
+         }
+
+         button{
+             background-color: orangered;
+             border: 1px solid orangered;
+             padding: 1.5em 3em;
+             border-radius: 30px;
+             cursor: pointer;
+         }
+     }
+        
+     }
+}
+
+@media only screen and (max-width:800px){
+    section.bolum1{
+        nav {
+                ul{
+                    display: none;
+                }
+
+                .respo{
+                    display: block;
+                    cursor: pointer;
+                }
+        }
+    }
+}

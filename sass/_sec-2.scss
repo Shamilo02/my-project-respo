@@ -1,0 +1,25 @@
+section.bolum2{
+        width: 100%;
+        height: auto;
+        padding: 100px 0;
+        text-align: center;
+        background-color: orangered;
+
+        .center {
+            width: 80%;
+            margin: auto;
+            color: #fff;
+            *{
+                margin-bottom: 15px;
+            }
+
+            button{
+                background-color: #fff;
+                border: 1px solid #fff;
+                padding: 1.5em 3em;
+                border-radius: 30px;
+                cursor: pointer;
+                
+            }
+        }
+}
