@@ -16,6 +16,20 @@ section.bolum1 {
   background-position: center center;
 }
 
+section.bolum1 .sticky {
+  width: 100%;
+  padding: 0 80px;
+  background-color: #fff;
+  color: #000 !important;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+section.bolum1 .sticky ul li a {
+  color: #000;
+}
+
 section.bolum1 nav {
   width: 80%;
   height: 70px;
@@ -94,6 +108,20 @@ section.bolum1 .center .text button {
   section.bolum1 nav .respo {
     display: block;
     cursor: pointer;
+  }
+  section.bolum1 .show {
+    width: 100%;
+    display: block;
+    position: relative;
+    top: 100px;
+  }
+  section.bolum1 .show li {
+    width: 100%;
+    display: block;
+    background-color: #fff;
+  }
+  section.bolum1 .show li a {
+    color: #000;
   }
 }
 
